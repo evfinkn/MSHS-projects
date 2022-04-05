@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Scratch Tutorial</title>
+  </head>
+  <body class="bg-dark" style="background-color:#CCCCCC;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          <nav class="navbar navbar-dark fixed-top">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#GettingStarted">Getting Started</a></li>
+              <li class="nav-item"><a class="nav-link" href="#SpritesBlocksBackgrounds">Sprites, Blocks, <br> & Backgrounds</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Events">Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="#MovingTheSprite">Moving the Sprite</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Looks">Looks</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Input">Input</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Loops">Loops</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Variables">Variables</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Lists">Lists</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-10" style="background-color:white;">
+          <br>
+          <h1 id="GettingStarted">Scratch Tutorial</h1>
+          <h3>Getting Started</h3>
+          <p>To get started, head to <a href="https://scratch.mit.edu/">scratch</a> and create and account by clicking Join Scratch in the top right. Once you have an account, click create in the top left to start a new project. Once your project is created, your page should look something like this (it might be completely different if the site has updated, but the general idea should be the same): 
+          <img src="images/scratchNewProject.png" alt="New scratch project" style="width:100%;">
+          </p>
+          <br>
+          <h3 id="SpritesBlocksBackgrounds">Sprites, Blocks, & Backgrounds</h3>
+          <p>Now that you're in a new scratch project, you need to familiarize yourself with what the different parts of a project are.
+          <img src="images/scratchHighlightAreas.png" alt="Scratch project with key areas circled" style="width:100%;">
+          In this image, different areas are circled. These areas are: <br>
+          Area 1 - This area is where you access the different blocks that will be used to build your project. It is also where you can edit sprite (character) costumes and sounds. <br>
+          Area 2 - This area is where you actually build your code with the blocks provided in area 1. <br>
+          Area 3 - This area is the display/output area that responds to your code. The cat currently in the display is the default sprite that comes with a new project. <br>
+          Area 4 - This area is where you add, select, or remove sprites and backgrounds. To add a sprite, click the blue button with a cat and +. To add a background, click the blue button with the picture and +.<br>
+          <br>The code you add is added only under the current sprite (the sprite with the blue borders). To change the sprite, click the other sprite in area 4.
+          <br>Scratch should save automatically, but to save manually, click File at the top and then click save now. To find your projects, click the folder icon at the top next to your account.
+	  </p>
+          <br>
+          <h3 id="Events">Events</h3>
+          <p>Events are blocks of code that run code attached to them when a specific event is triggered. They can be found on the left under the events tab. 
+          The most common one is the <img src="images/whenFlagClicked.png" alt="when flag clicked"> block. This block triggers any blocks attached to it when the green flag above the output is clicked. 
+          Other common events are <img src="images/whenKeyPressed.png" alt="when key pressed"> and <img src="images/whenBroadcastReceived.png" alt="when broadcast received">. 
+          For now, drag a <img src="images/whenFlagClicked.png" alt="when flag clicked"> into your code area.
+          </p>
+          <br>
+          <h3 id="MovingTheSprite">Moving the Sprite</h3>
+          <p>Now, go to the motion tab. It's the first tab on the left. Here, you can find blocks that change the location of your sprite. 
+          Drag the first block in the motion tab, <img src="images/move.png" alt="move 10 steps">, into your code and 
+          attach it to the <img src="images/whenFlagClicked.png" alt="when flag clicked"> block. Now, when you click the green flag above the output area, 
+          the cat should move to the right! Change the 10 to a -10, and the cat will move left. Changing the number from 10 to 100 will increase the distance the cat moves.
+          Drag the <img src="images/move.png" alt="move 10 steps"> block to the left side of the screen with the rest of the blocks to remove it. Another way to delete it is to hover over it and click the delete key.
+          <br><br>
+          Now, drag a <img src="images/glide.png" alt="glide 1 second to x y"> into your code and attach it. Change the x and the y to something else, like x: 112 y:56.
+          When you click the green flag, the cat should glide to the spot in 1 second. Move your cat clicking on him and dragging him to a different spot.
+          Change the amount of time from 1 second to 4 seconds and run your program again. This time, the cat should move to the spot slower.
+          <br><br>
+          Finally, remove the glide block and drag in a <img src="images/turnClockwise.png" alt="turn 15 degrees clockwise"> block, 
+          a <img src="images/turnCounterclockwise.png" alt="turn 15 degrees counterclockwise"> block, or a <img src="images/pointDirection.png" alt="point in direction 90"> block and attach it.
+          If you drag in a <img src="images/pointDirection.png" alt="point in direction 90">, change it from 90 to something else, like -90. Now, run the code, and the cat should rotate and face a different way.
+          If you move him by removing the turn block and dragging in a <img src="images/move.png" alt="move 10 steps">, the cat will move in the direction he's facing, not right or left.
+          </p>
+          <br>
+          <h3 id="Looks">Looks</h3>
+          <p>
+          Next, go to the looks tab. This is where you find blocks that make your sprite say things and alter the way it looks. Remove any blocks attached to your event,
+          and drag in <img src="images/sayFor.png" alt="say hello for 2 seconds"> or <img src="images/say.png" alt="say hello"> The difference is the first on will only say the message for the duration, while the second one says the message until it says something else.
+          For now, you can use either. When you run the program, a chat bubble will appear above the cat's head containing the message ("Hello!" by default).
+          <br><br>
+          On the left side of the screen towards the top, there are three tabs: code, costumes, and sounds. Navigate to the costumes tab. 
+          Under this tab, you can add costumes to your sprite and change/delete existing ones. Notice the cat has two costumes, with the current costume being costume1.
+          Click costume2, and the cat will change costumes. Change back to costume1. Go back to the code tab and add 
+          <img src="images/switchCostume.png" alt="switch costume to costume2"> to your code. Running the code will switch the cat's costume.
+          </p>
+          <br>
+          <h3 id="Input">Input</h3>
+          <p>Head over to the sensing tab. Here, the blocks we care about are the <img src="images/ask.png" alt="ask and wait"> and 
+          <img src="images/answer.png" alt="answer"> blocks. There are also blocks that allow you to detect if the sprite is touching the mouse or a certain color,
+          but you won't use those often if at all. What the ask block does is put the text inside in a speech bubble above the sprite and give a space for the user
+          to input something. The users input is then stored inside <img src="images/answer.png" alt="answer">. For example, you could ask the user for the name and then
+          say their name. <br>
+          <img src="images/inputExample.png" alt="ask 'what's your name' and wait, then say hello plus their name">
+          <br>
+          <h3 id="Loops">Loops</h3>
+          <p>Navigate to the control tab on the left. This category of blocks control the flow of your program. 
+          The first block, <img src="images/wait.png" alt="wait 1 second">, pauses the line of blocks it's in for the specified amount of time. 
+          The next three blocks are loops. Loops repeat blocks contained in them multiple times. 
+          <br><img src="images/repeat.png" alt="repeat 10"> This block repeats the code a specified number of times (10 by default).
+          <br><img src="images/forever.png" alt="forever"> This block repeats the code until the code is stopped by clicking the red octagon.
+          <br></p><p><img src="images/repeatUntil.png" alt="repeat until" style="float:left;"> This block repeats the code until the specified condition is met. For example, you might have
+          a repeat until (x > 100) loop and the code inside moves 10 steps. The sprite will repeatedly move 10 steps until their x position is greater than 100.</p>
+          <br>
+          <p>The next 2 blocks are decision makers.</p>
+          <p><br><img src="images/if.png" alt="if then" style="float:left;">This block runs the blocks inside of it only if the condition specified is true. Conditions can be found under the operators tab.
+          Operators include <img src="images/greaterThan.png" alt="greater than">, <img src="images/lessThan.png" alt="less than">, and <img src="images/equalTo.png" alt="equal to">.
+          You can use multiple operators at once by putting them in a <img src="images/and.png" alt="and"> or an <img src="images/or.png" alt="or">. You can do the opposite of a condition
+          by putting it in a <img src="images/not.png" alt="not">. Lastly, the <img src="images/mod.png" alt="mod"> block finds the remainder of a number. 4 mod 3 = 1. For an example of these, if I want to test if the sprites x position (found at the bottom of the motion tab) is greater than 0 and not equal to 12, I would combine all of these to get
+          <img src="images/exampleCondition.png" alt="x position is greater than 0 and x position is not equal to 12">.</p>
+          <p>
+          <br><img src="images/ifElse.png" alt="if then else"> This block is very similar to the if block, except if the condition is false, the code inside the else portion will run.
+          </p>
+          <h4>Time to test your knowledge!</h2>
+          <p>Using what you've learned so far, try to make a program. For an idea, you could make a program where two characters have a conversation. If you don't like that idea, try to make a quiz show where the user gets asked questions and is told whether they are right or wrong. Come back when you're done to learn more!</p>
+          <br>
+          <h3 id="Variables">Variables</h3>
+          <p>
+          Now that you've finished that, head over to the variables tab. Variables are named items that hold information. For example, I might have a variable named num
+          that stores a number, a variable called name that stores someone's name, or a variable called temp that stores the temperature. To make a variable, click
+          the "Make a Variable" button at the top of the variables tab. To change the value of a variable, use <img src="images/setVariable.png" alt="set variable to">.
+          If want to change a variable that is a number by a certain amount, you can use <img src="images/changeBy.png" alt="change variable by">. This will add the number
+          that you do to the variable. For example, if your variable is 5, and you change it by -2, your variable is now 3.
+          </p>
+          <br>
+          <h3 id="Lists">Lists</h3>
+          <p>
+          Let's think back to the name variable example. What if you want to store multiple names? Well, you could make multiple variables like name1, name2, name3, etc. 
+          However, this makes the code very clunky and confusing. Instead, we can make a list called names that lists all the names. Lists can be found under the variables tab. 
+          Click the "Make a List" button to make one. To add an item to the list, use <img src="images/addList.png" alt="add item to list">. To delete something from
+          the list, use <img src="images/deleteThing.png" alt="delete index 1 of list">. This delte command uses the index of the item you want to delete, which is
+          basically just the spot of the item. For example, in list called names with items "Sarah," "Tasha," and "Brad," item "Sarah" is at index 1, item
+          "Tasha" is at index 2, and "Brad" is at index 3. If I delete the item at index 2, names is now "Sarah" at index 1 and "Brad at index 2. To delete all of the
+          items in a list, use <img src="images/deleteAll.png" alt="delete all of list">. If you want to add an item to your list, but you want to add it in the middle,
+          you can use <img src="images/insert.png" alt="insert at index 1 of list">. Going back to the names list, if I insert "Josh" at index 1, the list is now
+          "Josh," "Sarah," and "Brad." To replace an item, use <img src="images/replace.png" alt="replace item 1 of list with"> Replacing item 2 of names with "Wanda" will
+          make the list "Josh," "Wanda," and "Brad." To access an item from a list, use <img src="images/item.png" alt="item of list">. Item 3 of names would return "Brad."
+          Finally, to get the length of a list, use <img src="images/length.png" alt="length of list">. The length of names is 3.
+          <p>
+          <br>
+          <h4>Congratulations!</h4>
+          <p>
+          You've finished this tutorial! However, you don't know everything there is to know about Scratch since I only talked about the main blocks. Play around with things and look through all the tabs to learn more.
+          If you ever need to do something, there's probably a block for it. Most blocks are also pretty self explanatory, but you can always just google what one does. Good luck making things in Scratch!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
