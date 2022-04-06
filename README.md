@@ -1,7 +1,7 @@
 # Middle School & High School Projects
 A collection of small projects I made in middle school and high school.
 
-## Websites
+## HTML
 
 ### mario-history.html
 A basic webpage detailing the history of 3D Mario games.
